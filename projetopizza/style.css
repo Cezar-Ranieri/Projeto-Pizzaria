@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+header h1{
+    display: inline;
+}
+
+nav{
+    display: flex;
+    color: white;
+    float: right;
+    height: 100%;
+}
+
+a.navbar{
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    padding: 10px;
+}
+
+h2#sucesso{
+    padding: 20px;
+    text-align: center;
+    color: rgb(42, 97, 17);
+    background-color: rgb(143, 223, 143);
+}
+
+h2#erro{
+    padding: 20px;
+    text-align: center;
+    color: rgb(109, 17, 17);
+    background-color: rgb(230, 129, 129);
+}
+
+div#background{
+    background-image: url(pizza-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.247);
+    z-index: 0;
+}
+
+
+div#background p{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.822);
+    padding: 20px 50px;
+}
+
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 600px;
+    gap: 3px;
+}
+
+label{
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+input#inputsubmit{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer h2{
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Dashboard */
+
+h2#dashboardtitulo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+main#dashboard{
+    margin-top: 30px;
+}
+
+div#containerdashboard{
+    min-height: 90vh;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    border: 1px solid black;
+}
+
+th{
+    color: white;
+    background-color: black;
+    padding: 10px 40px;
+}
+
+td{
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(216, 216, 216);
+}
+
+form.delete{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+input.submitdelete{
+    padding: 10px;
+}
